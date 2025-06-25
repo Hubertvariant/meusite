@@ -1,5 +1,4 @@
 body {
-    background-color: rgb(245, 237, 227);
   margin: 0;
   font-family: Arial, sans-serif;
 }
@@ -31,11 +30,8 @@ body {
 .produto{
     background-color: white;
     border: 2px solid #2c3e50;
-    
+    padding: 15px;
     margin: 2px;
-   
-}
-.p{
     text-align: center;
 }
 .compra{
@@ -48,4 +44,21 @@ body {
 }
 .capa{
   width: 40%;
+}
+
+main{
+  width: 940px;
+  margin: 0 auto;
+}
+
+form{
+  margin: 40px 0;
+}
+
+form label{
+  display: block;
+}
+
+form input{
+  display: block;
 }
